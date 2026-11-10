@@ -11,38 +11,63 @@ To create the solid model from given drawing and section the solid model
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+1.Open Autodesk Fusion 360 and press create sketch. Start a new sketch on the Front (XY) plane.
 
-![image](https://user-images.githubusercontent.com/113594316/198826239-a3d6ffd5-d409-46b0-ba88-3312e89e9834.png)
+<img width="507" height="568" alt="Screenshot 2026-11-08 233147" src="https://github.com/user-attachments/assets/8f575eca-4f1c-4313-9d14-8af5decb4973" />
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+2. Draw a vertical construction line upward from the origin to act as your center axis of revolution.
 
-![image](https://user-images.githubusercontent.com/113594316/198826244-f377f387-16af-4f89-a57d-1808083ce178.png)
+<img width="363" height="461" alt="image" src="https://github.com/user-attachments/assets/a1e6943a-2cdd-4214-9ecd-7746b14f80d8" />
 
-5.	Use inspect feature to measure the dimensions of sketch.
+3. Sketch the outer stem line vertically upward by 1.501 units, positioned 0.123 units away from the center axis.
 
-![image](https://user-images.githubusercontent.com/113594316/198826250-0e2f4985-18d7-4a07-8b1e-9c9fab11ea41.png)
+<img width="363" height="461" alt="image" src="https://github.com/user-attachments/assets/d8b5b1c7-2355-407b-b435-878be42c155b" />
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+4. Draw the bottom base by extending a horizontal line outwards to a total radius of 1.366 units from the center axis.
 
-![image](https://user-images.githubusercontent.com/113594316/198826257-ccfcfd0c-040a-459e-bb9f-93c375f9177f.png)
+5. Add the base lip by drawing a vertical line of 0.148 units upward at the outer edge, then connect it back toward the stem with a tapered line.
 
-7.Use extrude option to convert 3D model from sketch
+6. Use the 3-Point Arc tool to draw the inner bowl profile with a radius of R2.113.
 
-![image](https://user-images.githubusercontent.com/113594316/198826270-d55912b8-0a02-4b36-acb2-02e9b4b328fd.png)
+<img width="363" height="461" alt="image" src="https://github.com/user-attachments/assets/b42bfea8-8eef-415d-a377-deebe2dac5ff" />
 
- 8.Use revolve option to convert 2D to 3D.
- 
- ![image](https://user-images.githubusercontent.com/113594316/198826282-7a4844a8-0cb2-4573-8940-9a60356b7d04.png)
+7. Draw the outer bowl profile using a second 3-point arc with a radius of R2.261.
+
+8. Position the arc center point (+) by dimensioning it 0.721 units horizontally from the center axis and 1.986 units vertically above the stem-to-bowl joint.
+
+9. Dimension the top lip thickness to 0.148 units to define the opening width of the glass.
+
+10. Apply a total height dimension of 3.520 units from the very bottom of the base to the top lip to fully constrain the sketch, then click Finish Sketch.
+
+<img width="201" height="170" alt="Screenshot 2026-10-11 174217" src="https://github.com/user-attachments/assets/11674004-3a7a-4ee2-955c-6096251924b0" />
+
+11. Open the Revolve tool by navigating to Create > Revolve in the toolbar.
+
+<img width="515" height="614" alt="image" src="https://github.com/user-attachments/assets/0e43af17-5dd7-4427-baab-c92629893233" />
+
+12. Select the enclosed profile you just sketched as the target profile.
+
+13. Select the vertical center construction line as the Axis of revolution.
+
+14. Set the Type to Full (or 360 degrees), choose New Body as the operation, and click OK to generate the solid 3D glass.
+
+<img width="928" height="421" alt="image" src="https://github.com/user-attachments/assets/3293f923-b0d5-4590-88ba-d38cc60e8ae0" />
+
+15.Convert the 3D model into a drawing by clicking the Design workspace dropdown in the top-left corner, selecting Drawing -> From Design, choosing your sheet size, and clicking to place your base and projected views on the page.
+
+<img width="284" height="453" alt="Screenshot 2026-10-11 172436" src="https://github.com/user-attachments/assets/8736867e-42f5-48d4-8441-5ee815456d82" />
+<img width="415" height="462" alt="Screenshot 2026-10-11 172509" src="https://github.com/user-attachments/assets/d1da251b-c188-4fdb-ad00-9df6b00fde5f" />
+
 
 ## INPUT:
 
-![image](https://user-images.githubusercontent.com/113594316/199409656-c021c100-857a-4ae4-9752-9ae59465c9c2.png)
+<img width="816" height="572" alt="Screenshot 2026-11-10 085321" src="https://github.com/user-attachments/assets/b74cbdd4-e533-4b69-b53c-701bc1628273" />
+
 
 ## OUTPUT:
 
+<img width="1535" height="766" alt="Screenshot 2026-11-09 235552" src="https://github.com/user-attachments/assets/9cee1823-a50a-4be3-b91c-0b78de598c92" />
+<img width="816" height="572" alt="Screenshot 2026-11-10 085321" src="https://github.com/user-attachments/assets/1c8bb448-d1ec-4b54-9336-5f00f350088a" />
 
 ## RESULT:
 Thus, the cut section for solid model is created.
